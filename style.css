@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-in-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.main-banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+}
+
+.main-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    text-align: center;
+}
+
+
+.easy-steps {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.easy-steps h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 22%;
+    text-align: center;
+}
+
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.doctors {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.doctors h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.doctor-profiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.doctor-profile {
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 22%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
